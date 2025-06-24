@@ -15,6 +15,9 @@ class TwoSum{
                 }
             }
             System.out.println();
+            if(i==n-1 && count==0){
+                System.out.print("No pairs");
+            }
         }
     }
 }
